@@ -36,11 +36,11 @@
 
 <br>
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:your@email.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-linkedin)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/your-twitter)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:peter@petery.org)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/peteryo/)
 
 </div>
+
 </details>
 
 ---
@@ -79,6 +79,25 @@
         <img src="https://img.shields.io/badge/Blazor-512BD4?style=flat-square&logo=blazor&logoColor=white" />
       </div>
     </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <div align="center">
+        <img src="assets/sharp.png" alt="Sharp screenshot" width="100%" style="border-radius:6px;" />
+        <br><br>
+        <b><a href="https://github.com/PeterYousefi/Sharp">Sharp</a></b>
+        <br><br>
+        <p align="left">
+          A full-stack sports betting picks dashboard with live NFL odds sync, an AI-assisted bet slip analyzer, and full P&L/ROI tracking. Pulls live spreads, moneylines, and player props from The Odds API on a cron schedule, then runs deterministic edge math plus an optional GPT-4o-mini prose verdict on every parlay. Built with React/Vite and a Node.js/Express + SQLite backend.
+        </p>
+        <br>
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
+        <img src="https://img.shields.io/badge/SQLite-07405E?style=flat-square&logo=sqlite&logoColor=white" />
+        <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" />
+      </div>
+    </td>
+    <td width="50%" valign="top"></td>
   </tr>
 </table>
 

@@ -1,108 +1,48 @@
 <div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=PeterYousefi&style=flat-square&color=0e76a8&label=Profile+Views)
-
-# Hi, I'm Peter 👋
-
-<samp>Computer Science graduate · Focused on cloud computing, infrastructure-as-code, and building developer tools that scale.</samp>
-
+  <img src="assets/header.svg" alt="Peter Yousefi — Backend & Cloud Developer" width="100%" />
 </div>
+
+<br/>
+
+Computer Science graduate building backend services in **Python** and moving them onto the cloud. Currently earning my **Azure AZ-900** and building hands-on Azure projects — focused on getting good at the part that comes after *"it works"*: deploying it, keeping it observable, and keeping it cheap to run.
+
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Azure](https://img.shields.io/badge/Microsoft%20Azure-0072C6?style=flat-square&logo=microsoftazure&logoColor=white)
+
+**Currently learning** &nbsp;·&nbsp; Azure (AZ-900, in progress) &nbsp;·&nbsp; Bicep / Terraform &nbsp;·&nbsp; CI/CD with GitHub Actions &nbsp;·&nbsp; Docker &nbsp;·&nbsp; Linux
 
 ---
 
-### 🛠 Tech Stack
+### 🚧 Currently building
 
-<div align="center">
-
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-
-</div>
+**Cloud Résumé on Azure** — rebuilding my site to run entirely on Azure: served from **Azure Static Web Apps**, a live visitor counter on **Azure Functions + Cosmos DB**, deploys automated with **GitHub Actions**, and the infrastructure defined in **Bicep**.
 
 ---
 
-<details>
-<summary><b>More</b></summary>
-<br>
+### Projects
 
-<div align="center">
+**[Lumina](https://github.com/PeterYousefi/Lumina)** — AI marketing campaign generator  
+`Python` · `Flask` · `IBM watsonx`  
+Turns a business description into a ready-to-publish campaign in minutes through a five-step LLM workflow, with a zero-key offline fallback so it keeps working when the API is down.
+> **I built** the Flask backend, the five-step workflow, and the offline fallback.
 
-![Peter's GitHub Stats](https://github-readme-stats.vercel.app/api?username=PeterYousefi&show_icons=true&theme=default&hide_border=true&count_private=true)
+**[Sharp](https://github.com/PeterYousefi/Sharp)** — sports betting picks dashboard  
+`SQLite` · `The Odds API` · `edge engine`  
+Syncs live NFL odds, scores, and player props into one dashboard, with a bet-slip tracker, automatic P&L / ROI, and a responsible-gambling age gate on by default.
+> **I built** the deterministic edge and win-probability engine and the data model behind the picks.
 
-<br>
-
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:peter@petery.org)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/peteryo/)
-
-</div>
-
-</details>
-
----
-
-### 🚀 Featured Projects
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <div align="center">
-        <img src="assets/lumina.png" alt="Lumina screenshot" width="100%" style="border-radius:6px;" />
-        <br><br>
-        <b><a href="https://github.com/PeterYousefi/Lumina">Lumina</a></b>
-        <br><br>
-        <p align="left">
-          An AI marketing platform that turns a plain business description into a complete campaign — copy, imagery, and distribution — in a five-step guided workflow. Powered by IBM watsonx.ai (Granite) as the reasoning engine. Built with Python and Flask.
-        </p>
-        <br>
-        <img src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54" />
-        <img src="https://img.shields.io/badge/Flask-%23000.svg?style=flat-square&logo=flask&logoColor=white" />
-        <img src="https://img.shields.io/badge/IBM%20watsonx.ai-052FAD?style=flat-square&logo=ibm&logoColor=white" />
-      </div>
-    </td>
-    <td width="50%" valign="top">
-      <div align="center">
-        <img src="assets/geoshield.png" alt="GeoShield screenshot" width="100%" style="border-radius:6px;" />
-        <br><br>
-        <b><a href="https://github.com/PeterYousefi/GeoShield">GeoShield / WildfireGIS</a></b>
-        <br><br>
-        <p align="left">
-          A jurisdiction and civic-notification tool for prescribed burns. Draw a boundary on a map and it instantly finds the intersecting municipality, retrieves Mayor and Fire Chief contacts, and drafts a civic notification email — all in under 90 seconds. Built with C#, .NET, and Blazor.
-        </p>
-        <br>
-        <img src="https://img.shields.io/badge/C%23-%23239120.svg?style=flat-square&logo=c-sharp&logoColor=white" />
-        <img src="https://img.shields.io/badge/.NET-5C2D91?style=flat-square&logo=.net&logoColor=white" />
-        <img src="https://img.shields.io/badge/Blazor-512BD4?style=flat-square&logo=blazor&logoColor=white" />
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <div align="center">
-        <img src="assets/sharp.png" alt="Sharp screenshot" width="100%" style="border-radius:6px;" />
-        <br><br>
-        <b><a href="https://github.com/PeterYousefi/Sharp">Sharp</a></b>
-        <br><br>
-        <p align="left">
-          A full-stack sports betting picks dashboard with live NFL odds sync, an AI-assisted bet slip analyzer, and full P&L/ROI tracking. Pulls live spreads, moneylines, and player props from The Odds API on a cron schedule, then runs deterministic edge math plus an optional GPT-4o-mini prose verdict on every parlay. Built with React/Vite and a Node.js/Express + SQLite backend.
-        </p>
-        <br>
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
-        <img src="https://img.shields.io/badge/SQLite-07405E?style=flat-square&logo=sqlite&logoColor=white" />
-        <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" />
-      </div>
-    </td>
-    <td width="50%" valign="top"></td>
-  </tr>
-</table>
+**[GeoShield](https://github.com/PeterYousefi/GeoShield)** — civic notification tool  
+`geospatial` · `AI drafting` · `human review`  
+Draw a boundary on a map and it finds the intersecting municipality, pulls the right civic contacts, and drafts a notification — with unverified contacts flagged so a person always reviews first.
+> **I built** the notification workflow and the human-in-the-loop review step.
 
 ---
 
 <div align="center">
-  <sub>Made with ☁️ by Peter Yousefi</sub>
+  <a href="mailto:pete@petery.org">pete@petery.org</a> &nbsp;·&nbsp;
+  <a href="https://linkedin.com/in/peteryo">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="https://petery.org">petery.org</a>
 </div>

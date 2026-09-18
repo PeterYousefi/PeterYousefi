@@ -18,7 +18,7 @@ Computer Science graduate building backend services in **Python** and moving the
 
 ### 🚧 Currently building
 
-**Cloud Résumé on Azure** — rebuilding my site to run entirely on Azure: served from **Azure Static Web Apps**, a live visitor counter on **Azure Functions + Cosmos DB**, deploys automated with **GitHub Actions**, and the infrastructure defined in **Bicep**.
+Computer Science graduate building backend services in **Python** and moving them onto the cloud. **Microsoft Azure Fundamentals (AZ-900) certified** and building hands-on Azure projects, focused on getting good at the part that comes after *"it works"*: deploying it, keeping it observable, and keeping it cheap to run.
 
 ---
 

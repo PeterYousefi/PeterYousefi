@@ -4,15 +4,16 @@
 
 <br/>
 
-Computer Science graduate building backend services in **Python** and moving them onto the cloud. Currently earning my **Azure AZ-900** and building hands-on Azure projects — focused on getting good at the part that comes after *"it works"*: deploying it, keeping it observable, and keeping it cheap to run.
+Computer Science graduate building backend services in **Python** and moving them onto the cloud. **Microsoft Certified: Azure Fundamentals (AZ-900)**, now building hands-on Azure projects, focused on getting good at the part that comes after *"it works"*: deploying it, keeping it observable, and keeping it cheap to run.
 
 ![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Azure](https://img.shields.io/badge/Microsoft%20Azure-0072C6?style=flat-square&logo=microsoftazure&logoColor=white)
+![AZ-900](https://img.shields.io/badge/Certified-Azure%20Fundamentals%20(AZ--900)-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 
-**Currently learning** &nbsp;•&nbsp; Azure (AZ-900, in progress) &nbsp;•&nbsp; Bicep / Terraform &nbsp;•&nbsp; CI/CD with GitHub Actions &nbsp;•&nbsp; Docker &nbsp;•&nbsp; Linux
+**Next up** &nbsp;•&nbsp; Azure AI Fundamentals (AI-103) &nbsp;•&nbsp; Bicep / Terraform &nbsp;•&nbsp; CI/CD with GitHub Actions &nbsp;•&nbsp; Docker &nbsp;•&nbsp; Linux
 
 ---
 

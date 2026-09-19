@@ -13,7 +13,7 @@ Computer Science graduate building backend services in **Python** and moving the
 ![Azure](https://img.shields.io/badge/Microsoft%20Azure-0072C6?style=flat-square&logo=microsoftazure&logoColor=white)
 ![AZ-900](https://img.shields.io/badge/Certified-Azure%20Fundamentals%20(AZ--900)-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 
-**Next up** &nbsp;•&nbsp; Azure AI Fundamentals (AI-103) &nbsp;•&nbsp; Bicep / Terraform &nbsp;•&nbsp; CI/CD with GitHub Actions &nbsp;•&nbsp; Docker &nbsp;•&nbsp; Linux
+**Next up** &nbsp;•&nbsp; Azure AI App & Agent Developer (AI-103) &nbsp;•&nbsp; Bicep / Terraform &nbsp;•&nbsp; CI/CD with GitHub Actions &nbsp;•&nbsp; Docker &nbsp;•&nbsp; Linux
 
 ---
 

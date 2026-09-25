@@ -25,6 +25,11 @@ Computer Science graduate building backend services in **Python** and moving the
 
 ### Projects
 
+**[AegisOps](https://github.com/PeterYousefi/AegisOps)** — Human-governed AI incident response for cloud operations  
+`Python` · `FastAPI` · `PostgreSQL` · `Next.js` · `Docker` · `GitHub Actions` · `Azure Bicep`  
+An Azure-ready, full-stack incident-response platform. AI produces an evidence-grounded assessment (citing exact evidence IDs), proposes a remediation with risk and blast-radius, and requires explicit human approval before a **simulated-only** execution — all recorded in an append-only audit trail.
+> **I built** the whole thing: a modular-monolith FastAPI backend (Pydantic v2, SQLAlchemy, Alembic migrations, ~80 tests), strict validation that treats AI output as untrusted with a safe fallback, the Next.js dashboard with evidence/assessment/audit timelines, Docker/Compose, a GitHub Actions CI pipeline, and Azure Bicep infrastructure-as-code.
+
 **[Falsifier](https://github.com/PeterYousefi/Falsifier)** — AI exoplanet validation system  
 `Python` · `transit diagnostics` · `asteroseismic vetting`  
 Validates exoplanet candidates by analyzing transit light curves and asteroseismic data to distinguish true planets from false positives, with precision floating-point evaluation and symbolic verification for space exploration research.
@@ -39,11 +44,6 @@ Turns a business description into a ready-to-publish campaign in minutes through
 `TypeScript` · `Next.js` · `gpt-image-1`  
 Generates consistent storyboards from scripts with character sheets, scene parsing, and side-by-side comparison (with/without character guidance), with per-frame regeneration and download.
 > **I built** the sequential image generation pipeline, character sheet comparison toggle, and elapsed timer with 90s timeout per frame.
-
-**[AegisOps](https://github.com/PeterYousefi/AegisOps)** — AI incident response platform  
-`Python` · `FastAPI` · `Next.js`  
-Human-in-the-loop incident management: AI assesses incidents with cited evidence, proposes remediation with risk/blast-radius, requires human approval before simulated execution, and maintains an append-only audit trail.
-> **I built** the full-stack platform: FastAPI backend with strict AI output validation, Next.js frontend with evidence/audit timelines, and the approval-gated execution workflow.
 
 ---
 

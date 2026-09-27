@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" role="img" aria-labelledby="title desc">
+  <title id="title">Peter Yousefi — Backend &amp; Cloud Developer</title>
+  <desc id="desc">A light editorial header with a quietly typed introduction and a few drifting petals.</desc>
+  <defs>
+    <linearGradient id="paper" x2="1" y2="1">
+      <stop stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f7fafc"/>
+    </linearGradient>
+    <linearGradient id="inkline" x2="1" y2="0">
+      <stop stop-color="#d8e7ee"/>
+      <stop offset=".65" stop-color="#e7d8df"/>
+      <stop offset="1" stop-color="#f7fafc"/>
+    </linearGradient>
+    <clipPath id="typeReveal">
+      <rect x="0" y="0" width="0" height="30">
+        <animate attributeName="width" values="0;0;490;490;0" keyTimes="0;.08;.42;.92;1" dur="11s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <path id="petal" d="M0-7 C5-6 8-2 5 3 C3 7-2 8-6 5 C-9 2-5-4 0-7Z"/>
+  </defs>
+  <rect x="1" y="1" width="998" height="258" rx="18" fill="url(#paper)" stroke="#e0e8ec" stroke-width="2"/>
+  <path d="M40 53H960" stroke="url(#inkline)" stroke-width="1.5"/>
+  <text x="56" y="38" fill="#71838d" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="2">PETER / YOUSEFI</text>
+  <text x="942" y="38" text-anchor="end" fill="#8b9ca6" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="1.2">BACKEND · CLOUD</text>
+  <text x="56" y="128" fill="#203341" font-family="Arial, Helvetica, sans-serif" font-size="55" font-weight="700">Peter Yousefi</text>
+  <rect x="57" y="142" width="62" height="3" rx="1.5" fill="#c87290"/>
+  <text x="56" y="174" fill="#526777" font-family="Arial, Helvetica, sans-serif" font-size="20">Backend &amp; Cloud Developer <tspan fill="#c3cdd2">/</tspan> Python · Azure</text>
+  <g transform="translate(56 203)" fill="#587386" font-family="Courier New, monospace" font-size="15">
+    <text x="0" y="16" fill="#b87390">&gt;</text>
+    <g clip-path="url(#typeReveal)">
+      <text x="23" y="16">Building reliable systems. Keeping humans in the loop.</text>
+    </g>
+  </g>
+  <path d="M40 240H960" stroke="url(#inkline)" stroke-width="1.5"/>
+  <g fill="none" stroke="#c9d8dd" stroke-width="1.5" stroke-linecap="round" opacity=".75">
+    <path d="M805 53c43 34 84 28 149 49"/>
+    <path d="M869 76c8 12 14 24 14 39"/>
+    <path d="M924 89c2 15 0 27-8 37"/>
+  </g>
+  <g fill="#d69aaf" opacity=".7">
+    <use href="#petal" transform="translate(884 115) rotate(-18) scale(1.1)"/>
+    <use href="#petal" transform="translate(917 124) rotate(28) scale(.85)"/>
+    <use href="#petal" transform="translate(947 99) rotate(-60) scale(1)"/>
+  </g>
+  <g fill="#d69aaf">
+    <use href="#petal" transform="translate(850 63) scale(.85)">
+      <animateTransform attributeName="transform" type="translate" from="850 63" to="760 246" dur="16s" begin="-5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;.48;.48;0" keyTimes="0;.15;.75;1" dur="16s" begin="-5s" repeatCount="indefinite"/>
+    </use>
+    <use href="#petal" transform="translate(931 63) scale(.75)">
+      <animateTransform attributeName="transform" type="translate" from="931 63" to="841 248" dur="19s" begin="-12s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;.4;.4;0" keyTimes="0;.15;.8;1" dur="19s" begin="-12s" repeatCount="indefinite"/>
+    </use>
+  </g>
+</svg>

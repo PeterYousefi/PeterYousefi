@@ -13,7 +13,7 @@
     </linearGradient>
     <clipPath id="typeReveal">
       <rect x="0" y="0" width="0" height="30">
-        <animate attributeName="width" values="0;0;490;490;0" keyTimes="0;.08;.42;.92;1" dur="11s" repeatCount="indefinite"/>
+        <animate attributeName="width" values="0;0;520;520;0" keyTimes="0;.08;.42;.92;1" dur="11s" repeatCount="indefinite"/>
       </rect>
     </clipPath>
     <path id="petal" d="M0-7 C5-6 8-2 5 3 C3 7-2 8-6 5 C-9 2-5-4 0-7Z"/>

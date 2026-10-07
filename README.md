@@ -47,4 +47,4 @@ The best record of my work is in the [repositories above](https://github.com/Pet
 
 ---
 
-<a href="https://petery.org">Portfolio</a> · <a href="https://www.linkedin.com/in/peteryo/">LinkedIn</a> · <a href="mailto:pete@petery.org">pete@petery.org</a>
+<a href="https://petery.org">Portfolio</a> · <a href="https://www.linkedin.com/in/peteryo/">LinkedIn</a> · <a href="mailto:peter@petery.org">peter@petery.org</a>

@@ -11,11 +11,17 @@
 
 </div>
 
+<div align="center">
+  <img src="assets/pipeline.svg" alt="Pipeline: agent run, validate against a schema contract, human approval, append-only audit log" width="700">
+  <br><br>
+  <img src="assets/status.svg" alt="Open to Applied AI and Generative AI engineering roles" width="420">
+</div>
+
 ## About
 
 I build applied AI systems where output is verified rather than assumed: schema contracts, evidence-grounded assessments, audit trails, and human approval before anything consequential happens. My recent work centers on AI agent execution, evaluation, and observability.
 
-Computer Science graduate (Trent University, 2026), based in Toronto and open to Applied AI and Generative AI engineering roles.
+Computer Science graduate (Trent University, 2026), based in Toronto.
 
 ## Certification
 

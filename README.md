@@ -1,50 +1,94 @@
 <div align="center">
-  <img src="assets/profile-light.svg" alt="Peter Yousefi — Backend & Cloud Developer. Building reliable systems. Keeping humans in the loop." width="100%" />
+  <img src="assets/header.svg" alt="Peter Yousefi, Applied AI engineer" width="100%">
 </div>
 
-<br />
+<div align="center">
 
-I build backend services and cloud-ready applications with a focus on **reliability, evidence, and human control**. I'm a computer science graduate and **Microsoft Certified: Azure Fundamentals (AZ-900)**. Right now I'm working with Python, PostgreSQL, and Azure infrastructure while learning more about deployment, observability, and the cost of running things well.
+[![Azure Fundamentals](https://img.shields.io/badge/Microsoft_Certified-Azure_Fundamentals_(AZ--900)-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)](https://www.linkedin.com/in/peteryo)
+[![Website](https://img.shields.io/badge/petery.org-24292f?style=flat-square&logo=safari&logoColor=white)](https://petery.org)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-24292f?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/peteryo)
+[![Email](https://img.shields.io/badge/peter@petery.org-24292f?style=flat-square&logo=gmail&logoColor=white)](mailto:peter@petery.org)
 
-### Featured work
+</div>
+
+## About
+
+I build applied AI systems where output is verified rather than assumed: schema contracts, evidence-grounded assessments, audit trails, and human approval before anything consequential happens. My recent work centers on AI agent execution, evaluation, and observability.
+
+Computer Science graduate (Trent University, 2026), based in Toronto and open to Applied AI and Generative AI engineering roles.
+
+## Certification
+
+**Microsoft Certified: Azure Fundamentals (AZ-900)**, September 2026
+
+## Stack
+
+| | |
+|---|---|
+| **AI and LLM** | OpenAI API, IBM watsonx.ai, Firecrawl, prompt design, structured output validation, LLM output evaluation |
+| **Backend** | Python, FastAPI, TypeScript, Fastify, C# / .NET, Java, REST APIs |
+| **Frontend** | React, Next.js |
+| **Data** | PostgreSQL, Prisma, SQLAlchemy, SQLite |
+| **Cloud and DevOps** | Azure (Container Apps, Service Bus, Blob Storage, PostgreSQL), Docker, GitHub Actions, OpenTelemetry |
+
+## Featured projects
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/PeterYousefi/AegisOps">AegisOps ↗</a></h3>
-      <p><strong>Human-governed AI incident response.</strong> Brings alerts, logs, metrics, and runbooks together to propose evidence-grounded remediation. A person must approve every simulated action, and an append-only trail records what happened.</p>
-      <sub>FastAPI · PostgreSQL · Next.js · Docker · GitHub Actions · Azure Bicep</sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/PeterYousefi/Falsifier">Falsifier ↗</a></h3>
-      <p><strong>Exoplanet candidates tested against false positives.</strong> Examines transit light curves and other diagnostics to challenge apparent planet signals before they become claims.</p>
-      <sub>Python · transit diagnostics · asteroseismic vetting</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/PeterYousefi/Lumina">Lumina ↗</a></h3>
-      <p><strong>Marketing campaigns from a business brief.</strong> A five-step generation workflow turns an idea into campaign material, with an offline fallback when the AI service is unavailable.</p>
-      <sub>Python · Flask · IBM watsonx</sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/PeterYousefi/Continuity">Continuity ↗</a></h3>
-      <p><strong>Consistent storyboards across scenes.</strong> Uses character guidance and frame-by-frame generation so a character stays recognizable, with a comparison view and per-frame regeneration.</p>
-      <sub>TypeScript · Next.js · gpt-image-1</sub>
-    </td>
-  </tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Agent Flight Recorder](https://github.com/PeterYousefi/Agent-Flight-Recorder)
+Local-first execution control plane for AI agent workloads. Records attempts, retries, costs, and artifacts, with replay, cancellation, dead-letter handling, and distributed tracing.
+
+`TypeScript` `Fastify` `PostgreSQL` `Azure Service Bus` `OpenTelemetry`
+
+</td>
+<td width="50%" valign="top">
+
+### [CrawlOps](https://github.com/PeterYousefi/CrawlOps)
+Evaluation and observability for Firecrawl-powered research workflows. Grades each run against JSON Schema contracts, tracks provenance, and reports reliability across repeated runs.
+
+`TypeScript` `Fastify` `PostgreSQL` `Azure Container Apps`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [AegisOps](https://github.com/PeterYousefi/AegisOps)
+Human-governed incident response. Combines alerts, metrics, logs, and runbooks into evidence-grounded assessments, with explicit approval and an append-only audit trail. Synthetic incidents, simulated remediation.
+
+`Python` `FastAPI` `PostgreSQL` `Next.js`
+
+</td>
+<td width="50%" valign="top">
+
+### [AgentDrift](https://github.com/PeterYousefi/AgentDrift)
+Investigation tool for unusual AI-agent metadata movement. Behavioral rules, historical baselines, and temporal correlation feed an evidence graph and citation-validated reports. Responses require human approval.
+
+`Python` `FastAPI` `React` `SQLite`
+
+</td>
+</tr>
 </table>
 
-### Tools I work with
+<details>
+<summary><b>More projects</b></summary>
 
-`Python` · `SQL` · `FastAPI` · `Flask` · `PostgreSQL` · `TypeScript` · `Next.js` · `Docker` · `GitHub Actions` · `Azure`
+<br>
 
-<sub>Currently exploring: Azure AI App & Agent Developer (AI-103), Bicep, Terraform, CI/CD, and Linux.</sub>
+| Project | Description | Stack |
+|---|---|---|
+| [Continuity](https://github.com/PeterYousefi/Continuity) | Turns a story, style guide, and character sheet into scene-by-scene images, with editable prompts and with/without character guidance comparison. Live demo on Vercel. | TypeScript, Next.js, OpenAI |
+| [Lumina](https://github.com/PeterYousefi/Lumina) | Five-step AI marketing campaign workflow for small businesses, with review before publishing, mock fallbacks, and a dry-run mode. | Flask, IBM watsonx.ai, image providers |
+| [Falsifier](https://github.com/PeterYousefi/Falsifier) | Pipeline that challenges apparent exoplanet transit signals with astrophysical false-positive checks. Vets candidates; does not confirm biosignatures. | Python, automated tests, evaluation tooling |
+| [Sharp](https://github.com/PeterYousefi/Sharp) | NFL odds dashboard with bet slips, P&L and ROI tracking, deterministic payout math, and optional AI-written analysis. | React, Vite, Express, SQLite |
+| [GeoShield](https://github.com/PeterYousefi/GeoShield) | Prescribed-burn planning tool that finds intersecting jurisdictions from a drawn boundary and drafts notification emails for review. | C#, .NET 8, Blazor, watsonx.ai |
 
-### Development activity
+</details>
 
-The best record of my work is in the [repositories above](https://github.com/PeterYousefi?tab=repositories) and my [contribution history](https://github.com/PeterYousefi?tab=overview). I prefer showing the decisions, tests, and trade-offs in a project over a counter on this page.
+## Approach
 
----
-
-<a href="https://petery.org">Portfolio</a> · <a href="https://www.linkedin.com/in/peteryo/">LinkedIn</a> · <a href="mailto:peter@petery.org">peter@petery.org</a>
+- **Verify AI output.** Contracts, evidence IDs, and citation checks instead of trusting the model.
+- **Keep a human in the loop.** Approval gates on consequential actions, with audit trails.
+- **Measure reliability.** Repeated runs, recorded failures, retries, and cost tracking across every workflow.
